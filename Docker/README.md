@@ -1,8 +1,10 @@
 # Comandos Docker
 
-Iniciar ```sudo service docker star```
+Iniciar o docker ```sudo service docker start```
 
 Criar um container ```docker run containerQueQuerCria```
+
+Rodar container ```docker start nomeDoContainer```, ex: ```docker start postgres```
 
 Parar container/image ```docker stop ID``` ou ```docker stop ImageName```
 
