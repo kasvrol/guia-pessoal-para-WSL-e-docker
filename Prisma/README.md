@@ -16,3 +16,8 @@ Gerar SQL ```yarn prisma migrate dev --name init```
 
 Instalar prisma CLI ```yarn add @prisma/client```
 
+Atualizar schema no banco 
+```bash
+yarn prisma migrate dev
+nome-da-migracao
+```
