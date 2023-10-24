@@ -61,3 +61,9 @@ nvm install <version>
 nvm install --lts
 nvm use <version>
 ```
+
+Instalar ferramentas
+```bash
+npm install -g @nestjs/cli
+npm install --global yarn
+```
