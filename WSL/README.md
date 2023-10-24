@@ -38,3 +38,26 @@ Criar arquivo de texto o preenchendo no console (ctrl+d salva o arequivo)
 
 Para verificar se o diretório encontra-se no Linux ou no Windows, verificar o caminho
 ```\\wsl.localhost\Ubuntu...``` - Linux - ```\mnt\c\Users\``` - Windows.
+
+## Configurando a WSL
+
+Instalar node ```sudo apt install nodejs```
+
+Verificar versão ```node -v```
+
+Instalar npm ```sudo apt install npm```
+
+Instalar curl ```sudo apt install curl```
+
+Instalar NVM 
+```bash
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
+```
+
+Atualizar node
+```bash
+nvm install <version>
+nvm install --lts
+nvm use <version>
+```
